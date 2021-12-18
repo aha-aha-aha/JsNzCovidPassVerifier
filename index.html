@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <script src="bundle.js"></script>
+    <script type="text/javascript" src="main.js"></script>
+    <title>Covid Pass</title>
+</head>
+<body>
+    <div class="flex">
+        <label class="lbl" for="qrcode">QR Code:</label>
+        <textarea id="qrcode" name="qrcode" rows="4" cols="50">
+        </textarea>
+        <button class="btn" type="submit" onclick="check_Validity()">test</button>
+        <div id="results">
+            <div id="success">
+                <h2 style="color: white;">Pass successfully verified</h2>
+                <div id="details"></div>
+                </div>
+            </div>
+            <div id="failure">
+                <h2 style="color: white;">Pass verification failed</h2>
+                <div id="failureDetails" style="color: white;"></div>
+            </div>
+        </div>
+    </div> 
+</body>
+</html>

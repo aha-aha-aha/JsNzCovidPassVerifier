@@ -1,0 +1,43 @@
+.header {
+    color: wheat;
+}
+
+.flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.lbl {
+    font-size: medium;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+
+#qrcode {
+    width: 350px;
+    height: 250px;
+    margin-bottom: 10px;
+    resize: vertical;
+}
+
+.btn {
+    width: 100px;
+}
+
+#results {
+    color: white !important;
+}
+
+.success {
+    background-color: #4BB543;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.failure {
+    background-color: #bb2124;
+    padding-left: 20px;
+    padding-right: 20px;
+}
