@@ -8,13 +8,14 @@
     <link rel="stylesheet" href="main.css">
     <script src="bundle.js"></script>
     <script type="text/javascript" src="main.js"></script>
-    <title>Covid Pass</title>
+    <title>New Zealand Covid Pass Verifier</title>
 </head>
 <body>
     <div class="flex">
+	    <p>This verifier is javascript based and verifies a New Zealand My Vaccine Pass in the browser, without transmitting the data to a server. 
+		    No guarantees, no warranty. Please use at your own risk!</p>
         <label class="lbl" for="qrcode">QR Code:</label>
-        <textarea id="qrcode" name="qrcode" rows="4" cols="50">
-        </textarea>
+        <textarea id="qrcode" name="qrcode" rows="4" cols="50"></textarea>
         <button class="btn" type="submit" onclick="check_Validity()">test</button>
         <div id="results">
             <div id="success">
